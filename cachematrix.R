@@ -7,7 +7,7 @@
 ## 4. get the value of the inverse of the matrix
 #############################################################################
 
-## Creates a  matrix object
+## Create a  matrix object
 makeCacheMatrix <- function(x = matrix()) {
 ## Inverse    
     inv <- NULL
@@ -48,5 +48,5 @@ cacheSolve <- function(x, ...) {
 ## Set the inverse
     x$setInverse(inv)
 ## Matrix
-    inv
+    return (inv)
 }
